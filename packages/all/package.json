@@ -1,0 +1,28 @@
+{
+  "name": "@yuzhang9804/eslint-config",
+  "version": "0.0.1",
+  "description": "eslint config",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "license": "MIT",
+  "author": "yuzhang98045<yuzhang9804@gmail.com> (https://github.com/yuzhang9804)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "@yuzhang9804/eslint-config-react": "^0.0.1",
+    "@yuzhang9804/eslint-config-vue": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

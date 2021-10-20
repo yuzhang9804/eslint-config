@@ -1,0 +1,18 @@
+{
+  "name": "@yuzhang/eslint-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "yuzhang98045<yuzhang9804@gmail.com> (https://github.com/yuzhang9804)",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "devDependencies": {
+    "@yuzhang9804/eslint-config": "*",
+    "eslint": "^8.0.1",
+    "lerna": "^4.0.0",
+    "typescript": "^4.4.4"
+  }
+}
