@@ -1,6 +1,6 @@
 {
   "name": "@yuzhang9804/eslint-config-typescript",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "eslint config for typescript",
   "keywords": [
     "eslint",
@@ -17,9 +17,9 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@yuzhang9804/eslint-config-basic": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "@typescript-eslint/parser": "^5.1.0"
+    "@typescript-eslint/parser": "^5.1.0",
+    "@yuzhang9804/eslint-config-basic": "^0.1.0"
   },
   "devDependencies": {
     "eslint": "^8.0.1"
