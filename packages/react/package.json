@@ -1,6 +1,6 @@
 {
   "name": "@yuzhang9804/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint config for react",
   "keywords": [
     "eslint",
