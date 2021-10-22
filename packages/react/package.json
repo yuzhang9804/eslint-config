@@ -17,8 +17,9 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@yuzhang9804/eslint-config-basic": "^0.1.0",
-    "eslint-plugin-react": "7.26.1"
+    "@yuzhang9804/eslint-config-typescript": "^0.1.0",
+    "eslint-plugin-react": "7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
     "eslint": "^8.0.1"
