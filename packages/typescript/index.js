@@ -1,10 +1,10 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const basic = require('@yuzhang9804/eslint-config-typescript')
+const basic = require('@yuzhang9804/eslint-config-basic')
 
 module.export = {
   extends: [
     '@yuzhang9804/eslint-config-basic',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
   ],
   overrides: basic.overrides,
   rules: {
@@ -13,7 +13,7 @@ module.export = {
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/member-delimiter-style': [
       'error',
-      { multiline: { delimiter: 'none' } }
+      { multiline: { delimiter: 'none' } },
     ],
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
 
@@ -28,6 +28,6 @@ module.export = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/ban-types': 'off'
-  }
+    '@typescript-eslint/ban-types': 'off',
+  },
 }
