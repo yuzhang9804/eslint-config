@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/yuzhang9804/eslint-config/compare/v0.1.1...v0.1.2) (2021-10-25)
+
+
+### Bug Fixes
+
+* importing error file ([6851506](https://github.com/yuzhang9804/eslint-config/commit/68515064c0a99f532b7b7ed1a49d78f77d02cdde))
+
+
+
+
+
 # 0.1.0 (2021-10-20)
 
 
