@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/yuzhang9804/eslint-config/compare/v0.2.0...v0.2.1) (2021-10-26)
+
+
+### Bug Fixes
+
+* react eslint config ([3ff086c](https://github.com/yuzhang9804/eslint-config/commit/3ff086cc30148920cf6b55e5742cd52f58f18b08))
+
+
+
+
+
 # [0.2.0](https://github.com/yuzhang9804/eslint-config/compare/v0.1.2...v0.2.0) (2021-10-26)
 
 
