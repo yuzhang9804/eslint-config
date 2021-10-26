@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/yuzhang9804/eslint-config/compare/v0.1.2...v0.2.0) (2021-10-26)
+
+
+### Features
+
+* prefect react configuration ([818e532](https://github.com/yuzhang9804/eslint-config/commit/818e532408a2f30b01ec81751a04cdbfa066a496))
+
+
+
+
+
 ## [0.1.2](https://github.com/yuzhang9804/eslint-config/compare/v0.1.1...v0.1.2) (2021-10-25)
 
 **Note:** Version bump only for package @yuzhang9804/eslint-config

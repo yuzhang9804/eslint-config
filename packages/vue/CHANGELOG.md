@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/yuzhang9804/eslint-config/compare/v0.1.2...v0.2.0) (2021-10-26)
+
+**Note:** Version bump only for package @yuzhang9804/eslint-config-vue
+
+
+
+
+
 # 0.1.0 (2021-10-20)
 
 
