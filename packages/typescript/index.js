@@ -1,11 +1,12 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const basic = require('@yuzhang9804/eslint-config-basic')
 
-module.export = {
+module.exports = {
   extends: [
     '@yuzhang9804/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
+  parser: '@typescript-eslint/parser',
   overrides: basic.overrides,
   rules: {
     // typescript

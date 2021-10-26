@@ -1,23 +1,23 @@
-module.export = {
+module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true
+    es6: true,
   },
   extends: [
     'standard',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/standard'
+    'plugin:yml/standard',
   ],
   plugins: ['html'],
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.mjs', '.ts', '.d.ts']
-      }
-    }
+        extensions: ['.js', '.mjs', '.ts', '.d.ts'],
+      },
+    },
   },
   overrides: [
     {
@@ -26,12 +26,12 @@ module.export = {
       rules: {
         quotes: ['error', 'double'],
         'quote-props': ['error', 'always'],
-        'comma-dangle': ['error', 'never']
-      }
+        'comma-dangle': ['error', 'never'],
+      },
     },
     {
       files: ['*.yaml', '*.yml'],
-      parser: 'yaml-eslint-parser'
+      parser: 'yaml-eslint-parser',
     },
     {
       files: ['package.json'],
@@ -64,16 +64,16 @@ module.export = {
               'peerDependenciesMeta',
               'dependencies',
               'devDependencies',
-              'eslintConfig'
-            ]
+              'eslintConfig',
+            ],
           },
           {
             pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
-            order: { type: 'asc' }
-          }
-        ]
-      }
-    }
+            order: { type: 'asc' },
+          },
+        ],
+      },
+    },
   ],
   rules: {
     // import
@@ -81,6 +81,6 @@ module.export = {
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
-    'import/no-absolute-path': 'off'
+    'import/no-absolute-path': 'off',
   },
-};
+}
