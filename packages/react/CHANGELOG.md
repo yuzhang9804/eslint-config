@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/yuzhang9804/eslint-config/compare/v0.2.1...v0.2.2) (2021-10-27)
+
+
+### Bug Fixes
+
+* react 17 不需要显示 import React ([f1c5570](https://github.com/yuzhang9804/eslint-config/commit/f1c5570fc84c83489cece2518b03ac1b62992c02))
+
+
+
+
+
 ## [0.2.1](https://github.com/yuzhang9804/eslint-config/compare/v0.2.0...v0.2.1) (2021-10-26)
 
 
