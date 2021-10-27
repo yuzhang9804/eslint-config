@@ -21,8 +21,6 @@ module.exports = {
     // react
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-    'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['error'],
 
     // Hooks
     'react-hooks/rules-of-hooks': 'error',
