@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/yuzhang9804/eslint-config/compare/v0.2.2...v0.2.3) (2021-10-27)
+
+
+### Bug Fixes
+
+* remove excess rules ([4e8e133](https://github.com/yuzhang9804/eslint-config/commit/4e8e133db3f1f597a43774c611e0ebd53a564c97))
+
+
+
+
+
 ## [0.2.2](https://github.com/yuzhang9804/eslint-config/compare/v0.2.1...v0.2.2) (2021-10-27)
 
 
