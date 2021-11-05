@@ -82,5 +82,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
+
+    'space-before-function-paren': ['error', 'never'],
   },
 }
