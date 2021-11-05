@@ -1,6 +1,6 @@
 {
   "name": "@yuzhang9804/eslint-config",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "eslint config",
   "keywords": [
     "eslint",
@@ -16,8 +16,8 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@yuzhang9804/eslint-config-react": "^0.2.3",
-    "@yuzhang9804/eslint-config-vue": "^0.2.0"
+    "@yuzhang9804/eslint-config-react": "^0.3.0",
+    "@yuzhang9804/eslint-config-vue": "^0.3.0"
   },
   "devDependencies": {
     "eslint": "^8.0.1"

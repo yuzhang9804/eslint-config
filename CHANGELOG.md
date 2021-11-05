@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/yuzhang9804/eslint-config/compare/v0.2.3...v0.3.0) (2021-11-05)
+
+
+### Features
+
+* space-before-function-paren ([4acffe8](https://github.com/yuzhang9804/eslint-config/commit/4acffe8799acc9a7b156d9d57a5646c0fc490590))
+
+
+
+
+
 ## [0.2.3](https://github.com/yuzhang9804/eslint-config/compare/v0.2.2...v0.2.3) (2021-10-27)
 
 
