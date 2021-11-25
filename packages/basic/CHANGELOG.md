@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/yuzhang9804/eslint-config/compare/v0.3.1...v0.4.0) (2021-11-25)
+
+
+### Features
+
+* add basic rules ([3287c26](https://github.com/yuzhang9804/eslint-config/commit/3287c2637237443a622c86739938664cbaa88cd6))
+
+
+
+
+
 # [0.3.0](https://github.com/yuzhang9804/eslint-config/compare/v0.2.3...v0.3.0) (2021-11-05)
 
 
