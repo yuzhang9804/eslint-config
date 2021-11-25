@@ -83,6 +83,8 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
 
+    // common
     'space-before-function-paren': ['error', 'never'],
+    curly: ['error', 'multi-or-nest', 'consistent'],
   },
 }
