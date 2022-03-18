@@ -1,6 +1,6 @@
 {
   "name": "@yuzhang9804/eslint-config-vue",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "eslint config for vue",
   "keywords": [
     "eslint",
@@ -17,7 +17,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@yuzhang9804/eslint-config-typescript": "^0.4.1",
+    "@yuzhang9804/eslint-config-typescript": "^0.4.2",
     "eslint-plugin-vue": "7.20.0"
   },
   "devDependencies": {
