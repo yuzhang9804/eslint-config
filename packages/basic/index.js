@@ -32,6 +32,9 @@ module.exports = {
     {
       files: ['*.yaml', '*.yml'],
       parser: 'yaml-eslint-parser',
+      rules: {
+        'yml/quotes': ['error', { prefer: 'single', avoidEscape: true }]
+      }
     },
     {
       files: ['package.json'],
