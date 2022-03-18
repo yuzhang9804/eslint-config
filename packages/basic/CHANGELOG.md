@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/yuzhang9804/eslint-config/compare/v0.4.0...v0.4.1) (2022-03-18)
+
+
+### Bug Fixes
+
+* update yaml file ([f274ef5](https://github.com/yuzhang9804/eslint-config/commit/f274ef5ddc77b8981037d0f5ccd26f3b759c24d6))
+
+
+
+
+
 # [0.4.0](https://github.com/yuzhang9804/eslint-config/compare/v0.3.1...v0.4.0) (2021-11-25)
 
 
