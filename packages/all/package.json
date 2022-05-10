@@ -15,12 +15,12 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
     "@yuzhang9804/eslint-config-react": "^0.4.2",
     "@yuzhang9804/eslint-config-vue": "^0.4.2"
-  },
-  "devDependencies": {
-    "eslint": "^8.0.1"
   },
   "publishConfig": {
     "access": "public"

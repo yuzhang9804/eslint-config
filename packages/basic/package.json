@@ -16,6 +16,9 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
@@ -23,9 +26,6 @@
     "eslint-plugin-jsonc": "^1.7.0",
     "eslint-plugin-yml": "^0.10.1",
     "standard": "^16.0.4"
-  },
-  "devDependencies": {
-    "eslint": "^8.0.1"
   },
   "publishConfig": {
     "access": "public"

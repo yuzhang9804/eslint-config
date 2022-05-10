@@ -4,7 +4,7 @@ const basic = require('@yuzhang9804/eslint-config-basic')
 module.exports = {
   extends: [
     '@yuzhang9804/eslint-config-basic',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   parser: '@typescript-eslint/parser',
   overrides: basic.overrides,
@@ -14,7 +14,7 @@ module.exports = {
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/member-delimiter-style': [
       'error',
-      { multiline: { delimiter: 'none' } },
+      { multiline: { delimiter: 'none' } }
     ],
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
 
@@ -29,6 +29,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/ban-types': 'off',
-  },
+    '@typescript-eslint/ban-types': 'off'
+  }
 }

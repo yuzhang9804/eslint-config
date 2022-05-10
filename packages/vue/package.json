@@ -16,12 +16,12 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
     "@yuzhang9804/eslint-config-typescript": "^0.4.2",
     "eslint-plugin-vue": "7.20.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.0.1"
   },
   "publishConfig": {
     "access": "public"

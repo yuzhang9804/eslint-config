@@ -16,6 +16,10 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",

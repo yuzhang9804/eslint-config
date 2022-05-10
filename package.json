@@ -2,15 +2,16 @@
   "author": "yuzhang98045<yuzhang9804@gmail.com> (https://github.com/yuzhang9804)",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "lint": "npx eslint --ext .js,.json,.vue --fix .",
-    "release": "lerna publish --conventional-commits",
-    "re-release": "lerna publish from-git"
+    "lint": "eslint . --fix",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
     "@yuzhang9804/eslint-config": "workspace:*",
-    "eslint": "^8.1.0",
-    "lerna": "^4.0.0",
-    "typescript": "^4.4.4"
+    "bumpp": "^7.1.1",
+    "eslint": "^8.15.0",
+    "typescript": "^4.6.4"
+  },
+  "eslintConfig": {
+    "extends": "@yuzhang9804"
   }
 }

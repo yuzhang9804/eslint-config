@@ -2,19 +2,19 @@ module.exports = {
   extends: [
     '@yuzhang9804/eslint-config-typescript',
     'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
+    'plugin:react-hooks/recommended'
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 12,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   settings: {
     react: {
-      version: 'detect',
-    },
+      version: 'detect'
+    }
   },
   plugins: ['react', 'react-hooks'],
   rules: {
@@ -24,6 +24,6 @@ module.exports = {
 
     // Hooks
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
-  },
+    'react-hooks/exhaustive-deps': 'warn'
+  }
 }
